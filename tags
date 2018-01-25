@@ -1,0 +1,124 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AdvancedArithmetic	19th.cpp	/^class AdvancedArithmetic{$/;"	c	file:
+AdvancedArithmetic::divisorSum	19th.cpp	/^        virtual int divisorSum(int n)=0;$/;"	p	class:AdvancedArithmetic	file:	access:public	signature:(int n)
+Book	13th.cpp	/^        Book(string t,string a){$/;"	f	class:Book	access:public	signature:(string t,string a)
+Book	13th.cpp	/^class Book{$/;"	c	file:
+Book::Book	13th.cpp	/^        Book(string t,string a){$/;"	f	class:Book	access:public	signature:(string t,string a)
+Book::author	13th.cpp	/^        string author;$/;"	m	class:Book	file:	access:protected
+Book::display	13th.cpp	/^        virtual void display()=0;$/;"	p	class:Book	file:	access:public	signature:()
+Book::title	13th.cpp	/^        string title;$/;"	m	class:Book	file:	access:protected
+Calculator	17th.cpp	/^class Calculator{$/;"	c	file:
+Calculator	19th.cpp	/^class Calculator: public AdvancedArithmetic{$/;"	c	file:	inherits:AdvancedArithmetic
+Calculator::divisorSum	19th.cpp	/^	virtual int divisorSum(int n){$/;"	f	class:Calculator	access:public	signature:(int n)
+Calculator::power	17th.cpp	/^	int power(int n,int p){$/;"	f	class:Calculator	access:public	signature:(int n,int p)
+Difference	14th.cpp	/^	Difference(vector<int> a){$/;"	f	class:Difference	access:public	signature:(vector<int> a)
+Difference	14th.cpp	/^class Difference {$/;"	c	file:
+Difference::Difference	14th.cpp	/^	Difference(vector<int> a){$/;"	f	class:Difference	access:public	signature:(vector<int> a)
+Difference::computeDifference	14th.cpp	/^	void computeDifference(){$/;"	f	class:Difference	access:public	signature:()
+Difference::elements	14th.cpp	/^	vector<int> elements;$/;"	m	class:Difference	file:	access:private
+Difference::maximumDifference	14th.cpp	/^  	int maximumDifference;$/;"	m	class:Difference	file:	access:public
+MyBook	13th.cpp	/^		MyBook(string t, string a, int p) : Book(t, a){$/;"	f	class:MyBook	access:public	signature:(string t, string a, int p)
+MyBook	13th.cpp	/^class MyBook : public Book{$/;"	c	file:	inherits:Book
+MyBook::MyBook	13th.cpp	/^		MyBook(string t, string a, int p) : Book(t, a){$/;"	f	class:MyBook	access:public	signature:(string t, string a, int p)
+MyBook::display	13th.cpp	/^		void display(){$/;"	f	class:MyBook	access:public	signature:()
+MyBook::price	13th.cpp	/^		int price;$/;"	m	class:MyBook	file:	access:protected
+Node	15th.cpp	/^        Node(int d){$/;"	f	class:Node	access:public	signature:(int d)
+Node	15th.cpp	/^class Node$/;"	c	file:
+Node	22th.cpp	/^        Node(int d){$/;"	f	class:Node	access:public	signature:(int d)
+Node	22th.cpp	/^class Node{$/;"	c	file:
+Node::Node	15th.cpp	/^        Node(int d){$/;"	f	class:Node	access:public	signature:(int d)
+Node::Node	22th.cpp	/^        Node(int d){$/;"	f	class:Node	access:public	signature:(int d)
+Node::data	15th.cpp	/^        int data;$/;"	m	class:Node	file:	access:public
+Node::data	22th.cpp	/^        int data;$/;"	m	class:Node	file:	access:public
+Node::left	22th.cpp	/^        Node *left;$/;"	m	class:Node	file:	access:public
+Node::next	15th.cpp	/^        Node *next;$/;"	m	class:Node	file:	access:public
+Node::right	22th.cpp	/^        Node *right;$/;"	m	class:Node	file:	access:public
+Person	12th.cpp	/^		Person(string firstName, string lastName, int identification){$/;"	f	class:Person	access:public	signature:(string firstName, string lastName, int identification)
+Person	12th.cpp	/^class Person{$/;"	c	file:
+Person::Person	12th.cpp	/^		Person(string firstName, string lastName, int identification){$/;"	f	class:Person	access:public	signature:(string firstName, string lastName, int identification)
+Person::firstName	12th.cpp	/^		string firstName;$/;"	m	class:Person	file:	access:protected
+Person::id	12th.cpp	/^		int id;$/;"	m	class:Person	file:	access:protected
+Person::lastName	12th.cpp	/^		string lastName;$/;"	m	class:Person	file:	access:protected
+Person::printPerson	12th.cpp	/^		void printPerson(){$/;"	f	class:Person	access:public	signature:()
+Solution	15th.cpp	/^class Solution{$/;"	c	file:
+Solution	18th.cpp	/^	Solution(){ sizeStack = 0; sizeQueue = 0; }$/;"	f	class:Solution	access:public	signature:()
+Solution	18th.cpp	/^class Solution {$/;"	c	file:
+Solution	22th.cpp	/^class Solution{$/;"	c	file:
+Solution::Solution	18th.cpp	/^	Solution(){ sizeStack = 0; sizeQueue = 0; }$/;"	f	class:Solution	access:public	signature:()
+Solution::dequeueCharacter	18th.cpp	/^	char dequeueCharacter(){$/;"	f	class:Solution	access:public	signature:()
+Solution::display	15th.cpp	/^      void display(Node *head)$/;"	f	class:Solution	access:public	signature:(Node *head)
+Solution::enqueueCharacter	18th.cpp	/^	void enqueueCharacter(char ch){$/;"	f	class:Solution	access:public	signature:(char ch)
+Solution::getHeight	22th.cpp	/^		int getHeight(Node* root){$/;"	f	class:Solution	access:public	signature:(Node* root)
+Solution::insert	15th.cpp	/^Node* insert(Node *head,int data){$/;"	f	class:Solution	access:public	signature:(Node *head,int data)
+Solution::insert	22th.cpp	/^  		Node* insert(Node* root, int data) {$/;"	f	class:Solution	access:public	signature:(Node* root, int data)
+Solution::max	22th.cpp	/^		bool max(int a, int b){ return a > b; }$/;"	f	class:Solution	access:public	signature:(int a, int b)
+Solution::popCharacter	18th.cpp	/^	char popCharacter(){$/;"	f	class:Solution	access:public	signature:()
+Solution::pushCharacter	18th.cpp	/^	void pushCharacter(char ch){$/;"	f	class:Solution	access:public	signature:(char ch)
+Solution::queue	18th.cpp	/^	char queue[300];$/;"	m	class:Solution	file:	access:public
+Solution::sizeQueue	18th.cpp	/^	int sizeStack, sizeQueue;$/;"	m	class:Solution	file:	access:public
+Solution::sizeStack	18th.cpp	/^	int sizeStack, sizeQueue;$/;"	m	class:Solution	file:	access:public
+Solution::stack	18th.cpp	/^	char stack[300];$/;"	m	class:Solution	file:	access:public
+Student	12th.cpp	/^		Student(string firstName, string lastName, int identification, vector<int> scores) $/;"	f	class:Student	access:public	signature:(string firstName, string lastName, int identification, vector<int> scores)
+Student	12th.cpp	/^class Student :  public Person{$/;"	c	file:	inherits:Person
+Student::Student	12th.cpp	/^		Student(string firstName, string lastName, int identification, vector<int> scores) $/;"	f	class:Student	access:public	signature:(string firstName, string lastName, int identification, vector<int> scores)
+Student::calculate	12th.cpp	/^		char calculate(){$/;"	f	class:Student	access:public	signature:()
+Student::testScores	12th.cpp	/^		vector<int> testScores;  $/;"	m	class:Student	file:	access:private
+author	13th.cpp	/^        string author;$/;"	m	class:Book	file:	access:protected
+calculate	12th.cpp	/^		char calculate(){$/;"	f	class:Student	access:public	signature:()
+computeDifference	14th.cpp	/^	void computeDifference(){$/;"	f	class:Difference	access:public	signature:()
+data	15th.cpp	/^        int data;$/;"	m	class:Node	file:	access:public
+data	22th.cpp	/^        int data;$/;"	m	class:Node	file:	access:public
+dequeueCharacter	18th.cpp	/^	char dequeueCharacter(){$/;"	f	class:Solution	access:public	signature:()
+display	13th.cpp	/^		void display(){$/;"	f	class:MyBook	access:public	signature:()
+display	13th.cpp	/^        virtual void display()=0;$/;"	p	class:Book	file:	access:public	signature:()
+display	15th.cpp	/^      void display(Node *head)$/;"	f	class:Solution	access:public	signature:(Node *head)
+divisorSum	19th.cpp	/^	virtual int divisorSum(int n){$/;"	f	class:Calculator	access:public	signature:(int n)
+divisorSum	19th.cpp	/^        virtual int divisorSum(int n)=0;$/;"	p	class:AdvancedArithmetic	file:	access:public	signature:(int n)
+elements	14th.cpp	/^	vector<int> elements;$/;"	m	class:Difference	file:	access:private
+enqueueCharacter	18th.cpp	/^	void enqueueCharacter(char ch){$/;"	f	class:Solution	access:public	signature:(char ch)
+factorial	09th.cpp	/^int factorial(int n) {$/;"	f	signature:(int n)
+firstName	12th.cpp	/^		string firstName;$/;"	m	class:Person	file:	access:protected
+getHeight	22th.cpp	/^		int getHeight(Node* root){$/;"	f	class:Solution	access:public	signature:(Node* root)
+id	12th.cpp	/^		int id;$/;"	m	class:Person	file:	access:protected
+insert	15th.cpp	/^Node* insert(Node *head,int data){$/;"	f	class:Solution	access:public	signature:(Node *head,int data)
+insert	22th.cpp	/^  		Node* insert(Node* root, int data) {$/;"	f	class:Solution	access:public	signature:(Node* root, int data)
+lastName	12th.cpp	/^		string lastName;$/;"	m	class:Person	file:	access:protected
+left	22th.cpp	/^        Node *left;$/;"	m	class:Node	file:	access:public
+main	08th.cpp	/^int main() {$/;"	f	signature:()
+main	09th.cpp	/^int main() {$/;"	f	signature:()
+main	10th.cpp	/^int main(){$/;"	f	signature:()
+main	11th.cpp	/^int main(){$/;"	f	signature:()
+main	12th.cpp	/^int main() {$/;"	f	signature:()
+main	13th.cpp	/^int main() {$/;"	f	signature:()
+main	14th.cpp	/^int main() {$/;"	f	signature:()
+main	15th.cpp	/^int main()$/;"	f	signature:()
+main	16th.cpp	/^int main(){$/;"	f	signature:()
+main	17th.cpp	/^int main(){$/;"	f	signature:()
+main	18th.cpp	/^int main() {$/;"	f	signature:()
+main	19th.cpp	/^int main(){$/;"	f	signature:()
+main	20th.cpp	/^int main() {$/;"	f	signature:()
+main	21th.cpp	/^int main() {$/;"	f	signature:()
+main	22th.cpp	/^int main() {$/;"	f	signature:()
+main	test.cpp	/^int main(){$/;"	f	signature:()
+max	22th.cpp	/^		bool max(int a, int b){ return a > b; }$/;"	f	class:Solution	access:public	signature:(int a, int b)
+maximumDifference	14th.cpp	/^  	int maximumDifference;$/;"	m	class:Difference	file:	access:public
+next	15th.cpp	/^        Node *next;$/;"	m	class:Node	file:	access:public
+popCharacter	18th.cpp	/^	char popCharacter(){$/;"	f	class:Solution	access:public	signature:()
+power	17th.cpp	/^	int power(int n,int p){$/;"	f	class:Calculator	access:public	signature:(int n,int p)
+price	13th.cpp	/^		int price;$/;"	m	class:MyBook	file:	access:protected
+printArray	21th.cpp	/^void printArray(vector<T> a){$/;"	f	signature:(vector<T> a)
+printPerson	12th.cpp	/^		void printPerson(){$/;"	f	class:Person	access:public	signature:()
+pushCharacter	18th.cpp	/^	void pushCharacter(char ch){$/;"	f	class:Solution	access:public	signature:(char ch)
+queue	18th.cpp	/^	char queue[300];$/;"	m	class:Solution	file:	access:public
+right	22th.cpp	/^        Node *right;$/;"	m	class:Node	file:	access:public
+sizeQueue	18th.cpp	/^	int sizeStack, sizeQueue;$/;"	m	class:Solution	file:	access:public
+sizeStack	18th.cpp	/^	int sizeStack, sizeQueue;$/;"	m	class:Solution	file:	access:public
+stack	18th.cpp	/^	char stack[300];$/;"	m	class:Solution	file:	access:public
+swap	20th.cpp	/^void swap(int& a, int& b){$/;"	f	signature:(int& a, int& b)
+testScores	12th.cpp	/^		vector<int> testScores;  $/;"	m	class:Student	file:	access:private
+title	13th.cpp	/^        string title;$/;"	m	class:Book	file:	access:protected
