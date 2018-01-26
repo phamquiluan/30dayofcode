@@ -9,14 +9,18 @@ class Node{
 	public:
 		int data;
 		Node *left,*right;
-		Node(int d){ data=d; left=right=NULL; }
+		Node(int d){
+			data=d;
+			left=right=NULL;
+		}
 };
 
 class Solution{
 	public:
 		Node* insert(Node* root, int data){
-			if(root==NULL)
+			if(root==NULL){
 				return new Node(data);
+			}
 			else{
 				Node* cur;
 				if(data<=root->data){
@@ -36,17 +40,17 @@ class Solution{
 			queue<Node*>* myQueue = new queue<Node*>();
 						
 			myQueue->push(root);
-
+			
 			while(myQueue->front()){
 				
 				Node* tempNode = myQueue->front();
 					
-				cout << tempNode->data << " ";
+				cout << tempNode->data << endl;
 
 				if(tempNode->left)
-					myQueue->push(tempNode->left);
-				if(tempNode->right)
-					myQueue->push(tempNode->right);
+					myQueue->push(root->left);
+				if(root->right)
+					myQueue->push(root->right);
 				
 				myQueue->pop();	
 			}
