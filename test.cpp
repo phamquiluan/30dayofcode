@@ -1,68 +1,20 @@
 #include <iostream>
-#include <cstddef>
-#include <queue>
-#include <string>
-#include <cstdlib>
-
-using namespace std;	
-class Node{
-	public:
-		int data;
-		Node *left,*right;
-		Node(int d){ data=d; left=right=NULL; }
-};
-
-class Solution{
-	public:
-		Node* insert(Node* root, int data){
-			if(root==NULL)
-				return new Node(data);
-			else{
-				Node* cur;
-				if(data<=root->data){
-					cur=insert(root->left,data);
-					root->left=cur;
-				}
-				else{
-					cur=insert(root->right,data);
-					root->right=cur;
-				}           
-				return root;
-			}
-		}
-
-		void levelOrder(Node * root){
-			//Write your code here
-			queue<Node*>* myQueue = new queue<Node*>();
-						
-			myQueue->push(root);
-
-			while(myQueue->front()){
-				
-				Node* tempNode = myQueue->front();
-					
-				cout << tempNode->data << " ";
-
-				if(tempNode->left)
-					myQueue->push(tempNode->left);
-				if(tempNode->right)
-					myQueue->push(tempNode->right);
-				
-				myQueue->pop();	
-			}
-		}
-
-};//End of Solution
+#include <set>
+using namespace std;
 
 int main(){
-	Solution myTree;
-	Node* root=NULL;
-	int T,data;
-	cin>>T;
-	while(T-->0){
-		cin>>data;
-		root= myTree.insert(root,data);
-	}
-	myTree.levelOrder(root);
+	
+	multiset<int> myList;
+
+	myList.insert(2);
+	myList.insert(1);
+	myList.insert(3);
+	myList.insert(5);
+
+	for(auto& it : myList){
+		cout << it << " ";
+	}	
+
+	cout << endl;
 	return 0;
 }
